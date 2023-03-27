@@ -6,7 +6,7 @@ package com.entornos.MarcosMacíasMira.algoritmos;
  * Version 1.0
  * Esta clase sirve para calcular números fibonacci
  */
-public abstract class algoritmos {
+public abstract class Algoritmo {
 	/**
 	 * 
 	 * Recibe un numero entero y devuelve un numero fibonacci
@@ -32,7 +32,7 @@ public abstract class algoritmos {
 	 * @param posicion 
 	 * @return numero factorial del numero entero
 	 */
-	public int factorial (int numero) {
+	public static int factorial (int numero) {
 	  if (numero==0) {
 	    return 1;
 	  }else { 

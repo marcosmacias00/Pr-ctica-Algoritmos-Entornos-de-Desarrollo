@@ -24,4 +24,19 @@ public abstract class algoritmos {
 		// Si no quieres imprimirla, comenta la siguiente línea:
 		return actual;
 	}
+
+
+	/**
+	 * 
+	 * Recibe un numero entero y devuelve un numero factorial
+	 * @param posicion 
+	 * @return numero factorial del numero entero
+	 */
+	public int factorial (int numero) {
+	  if (numero==0) {
+	    return 1;
+	  }else { 
+	    return numero * factorial(numero-1);
+		}
+	}
 }

@@ -39,4 +39,21 @@ public abstract class algoritmos {
 	    return numero * factorial(numero-1);
 		}
 	}
+	
+	/**
+	 * 
+	 * Recibe un numero entero y devuelve un numero primo
+	 * @param posicion 
+	 * @return numero primo del numero entero
+	 */
+	public static boolean Primo(int numero){
+		  int contador = 2;
+		  boolean primo=true;
+		  while ((primo) && (contador!=numero)){
+		    if (numero % contador == 0)
+		      primo = false;
+		    contador++;
+		  }
+		  return primo;
+		}
 }
